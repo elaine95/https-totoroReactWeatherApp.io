@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/totoroReactWeatherApp/static/css/main.3eb48614.css",
+    "main.js": "/totoroReactWeatherApp/static/js/main.8577f976.js",
+    "static/js/787.d9312eb8.chunk.js": "/totoroReactWeatherApp/static/js/787.d9312eb8.chunk.js",
+    "static/media/sunny.gif": "/totoroReactWeatherApp/static/media/sunny.f4722c3c5a8e2c1d432e.gif",
+    "static/media/snow.gif": "/totoroReactWeatherApp/static/media/snow.ef83d91ee4798d047c22.gif",
+    "static/media/mainCover2.jpg": "/totoroReactWeatherApp/static/media/mainCover2.82fc666f3381263e4033.jpg",
+    "static/media/mainCover1.jpg": "/totoroReactWeatherApp/static/media/mainCover1.87efecd64ff9cba33f3c.jpg",
+    "static/media/thunderstorm.gif": "/totoroReactWeatherApp/static/media/thunderstorm.4e9d6bfcc3149e2d3d59.gif",
+    "static/media/Raining.gif": "/totoroReactWeatherApp/static/media/Raining.6c234ab9864d054c44f1.gif",
+    "index.html": "/totoroReactWeatherApp/index.html",
+    "main.3eb48614.css.map": "/totoroReactWeatherApp/static/css/main.3eb48614.css.map",
+    "main.8577f976.js.map": "/totoroReactWeatherApp/static/js/main.8577f976.js.map",
+    "787.d9312eb8.chunk.js.map": "/totoroReactWeatherApp/static/js/787.d9312eb8.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3eb48614.css",
+    "static/js/main.8577f976.js"
+  ]
+}
