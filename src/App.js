@@ -58,7 +58,7 @@ function getAppName() {
   return (
     <div className={
       (typeof weather.main != "undefined") ? (getAppName()): 'app' }>
-      <main>
+      <main>      
         <div className="search-box">
           <input
             type = "text"
@@ -81,32 +81,35 @@ function getAppName() {
               <div className="location">{weather.name} {weather.sys.country}</div>
             </div>
             <div className="date">{dateBuilder(new Date())}</div>
+          </div>
+          <div className="bottom">
+            <div className="weather-description">
+                <div className="weather">
+                  {weather.weather[0].description}
+                </div>
+                <div className="weather-icon">
+                  <img id="weatherIcon" src={`http://openweathermap.org/img/wn/${weather.weather[0].icon}@2x.png`}/>                     
+                </div>
+            </div>
+            <div className="more-details">
+              <div className="feel-like">
+                Feels like: {Math.round(weather.main.feels_like)}°
+              </div>
+              <div className="humidity">
+                Humidity: {weather.main.humidity}%
+              </div>
+              <div className="visibility">
+                Visibility: {weather.visibility}m
+              </div>
+              <div className="pressure">
+                Pressure: {weather.main.pressure}hPa
+              </div>
+              <div className="wind">
+                Wind: Speed {weather.wind.speed}m/s, Deg {weather.wind.deg}
+              </div>
+            </div>          
           </div>               
-          <div className="weather-description">
-              <div className="weather">
-                {weather.weather[0].description}
-              </div>
-              <div className="weather-icon">
-                <img id="weatherIcon" src={`http://openweathermap.org/img/wn/${weather.weather[0].icon}@2x.png`}/>                     
-              </div>
-          </div>
-          <div className="more-details">
-            <div className="feel-like">
-              Feels like: {Math.round(weather.main.feels_like)}°
-            </div>
-            <div className="humidity">
-              Humidity: {weather.main.humidity}%
-            </div>
-            <div className="visibility">
-              Visibility: {weather.visibility}m
-            </div>
-            <div className="pressure">
-              Pressure: {weather.main.pressure}hPa
-            </div>
-            <div className="wind">
-              Wind: Speed {weather.wind.speed}m/s, Deg {weather.wind.deg}
-            </div>
-          </div>
+          
             
         </div> ) : ('')}
                
